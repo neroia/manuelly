@@ -1,0 +1,124 @@
+:root{
+    --rosa:#F2BFB3;
+    --rosaclaro:#F2B6CC;
+    --branco:#F5F5F5;
+    --roxo:#26010F
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: var(--branco);
+    
+}
+header{
+    background-color: var(--rosa);
+    padding: 10px;
+    border-radius: 0px 0px 30px 30px;
+    box-shadow: 0px -2px 6px 0px rgba(0, 0, 0, 0.432);
+    min-height: 200px;
+}
+.divname{
+    
+    display: flex;
+    align-items: center;
+}
+.perfil{
+    width: 95px;;
+    margin-right: 20px;
+    
+     
+}
+h1{
+    font-size: 41px;
+}
+
+
+
+.divnav{
+    
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav{
+    background-color: var(--rosaclaro);
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.205);
+}
+.app{
+    width: 55px;
+    margin: 2px;
+}
+h3{
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+
+
+
+main{
+    padding: 10px;
+}
+h2{
+    color: var(--roxo);
+    font-size: 27px;
+}
+
+p{
+    text-indent: 10px;
+    font-size: 20px;
+}
+section{
+    margin-bottom: 15px;
+}
+
+
+
+.sub{
+  color: #E76D57;
+  font-size: 23px;
+}
+.book1{
+    
+    text-align: center;
+}
+.book{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.livro{
+    width: 122px;
+    margin: 10PX;
+}
+
+footer{
+    background-color: var(--rosa);
+    border-radius: 30px 30px 0px 0px;
+    padding: 10px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -2px 6px 0px rgba(0, 0, 0, 0.377);
+}
+
